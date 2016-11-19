@@ -1,6 +1,6 @@
 val commonSettings = Seq(
   organization := "$organization;format="lowercase"$",
-  scalaVersion := "$scalaVersion$",
+  scalaVersion in ThisBuild := "$scalaVersion$",
   version := "0.0.1",
   scalacOptions := Seq(
     // Target the 1.8 JVM since we will be using scala 2.12 as a default for
