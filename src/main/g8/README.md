@@ -1,4 +1,4 @@
-# Project Name
+# $name;format="start-case"$
 TODO: Write a project description
 
 ## Installation
