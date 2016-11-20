@@ -1,5 +1,6 @@
-# Project Name
-Base template for generic single-module scala application.
+# Scala Single Module Template
+Base template for generic single-module scala application. This template holds
+a placeholder "StackModule" which can be ran via `sbt run` or `sbt test`
 
 ## Installation
 If you're using sbt 13.13, simply run the `sbt new` command with this github url.
@@ -15,24 +16,11 @@ you can install and use giter8.
 g8 craiggiles/template-single-module.g8
 ```
 
-## Usage
-TODO: Write usage instructions
-
 ## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## Changelog
-### [0.0.2]
-#### Added
-- Updated the build.sbt
-
-### [0.0.1]
-#### Added
-- Initial Commit
+All pull requests are welcome! This was loosly based on some projects that I've
+been working on during my free time. If you would like to contribute back to
+this template, simply fork it and submit a pull request with your desired
+changes.
 
 ## Authors
 * Craig Giles: http://www.github.com/craiggiles
