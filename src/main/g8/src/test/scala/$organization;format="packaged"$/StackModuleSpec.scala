@@ -5,7 +5,9 @@ import org.scalatest.{Matchers, WordSpecLike}
 abstract class TestCase extends WordSpecLike
   with Matchers
 
-class StackModuleSpec extends TestCase with StackModule {
+class StackModuleSpec extends TestCase {
+  import Stack._
+
   "A stack" should {
     "push a value" in {
       val empty = List.empty[Int]
